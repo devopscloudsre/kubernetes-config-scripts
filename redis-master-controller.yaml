@@ -5,7 +5,7 @@ metadata:
   labels:
     name: redis-master
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     name: redis-master
   template:
